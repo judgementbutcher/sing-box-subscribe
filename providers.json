@@ -1,31 +1,23 @@
 {
-    "subscribes":[
-        {
-            "url": "URL",
-            "tag": "tag_1",
-            "enabled": true,
-            "emoji": 1,
-            "subgroup": "",
-            "prefix": "",
-            "User-Agent":"v2rayng"
-        },
-        {
-            "url": "URL",
-            "tag": "tag_2",
-            "enabled": false,
-            "emoji": 0,
-            "subgroup": "命名/named",
-            "prefix": "❤️",
-            "User-Agent":"clashmeta"
-        }
-    ],
-    "auto_set_outbounds_dns":{
-        "proxy": "",
-        "direct": ""
-    },
-    "save_config_path": "./config.json",
-    "auto_backup": false,
-    "exclude_protocol":"ssr",
-    "config_template": "",
-    "Only-nodes": false
+  "subscribes": [
+    {
+      "url": "https://vmdMjd.prosubnet02.eu:8443/api/v1/client/fce6fbcbfdbf98fefa8dee28c2ada501",
+      "tag": "tag_1",
+      "enabled": true,
+      "emoji": 1,
+      "ex-node-name": "自动|故障",
+      "subgroup": "",
+      "prefix": "",
+      "User-Agent": "clashmeta"
+    }
+  ],
+  "auto_set_outbounds_dns": {
+    "proxy": "",
+    "direct": ""
+  },
+  "save_config_path": "../sing-box/config.json",
+  "auto_backup": false,
+  "exclude_protocol": "ssr",
+  "config_template": "",
+  "Only-nodes": false
 }
